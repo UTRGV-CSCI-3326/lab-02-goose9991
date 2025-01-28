@@ -11,7 +11,7 @@ public class MixMatch {
         double someDouble = 0.123456789;
         boolean someBoolean = false;
 
-        //print definitons 
+        //print definitions 
         System.out.println(someString + " <- A String is a non-primitive data type that represents a sequence of character values.");
         System.out.println(someChar + " <- A char datatype stores a single character/letter or ASCII values.");
         System.out.println(num + " <- An integer datatype stores whole numbers from -2,147,483,648 to 2,147,483,647.");
@@ -21,6 +21,6 @@ public class MixMatch {
         System.out.println(someDouble + " <- A double datatype stores fractional numbers. Sufficient for storing 15 to 16 decimal digits.");
         System.out.println(someBoolean + " <- A boolean datatype stores true or false values.");
         //print all in one
-        System.out.println(someString + " " + someChar + " " + num + " " + smallNum + " " + longNum + " " + someFloat + " " + someDouble + " " + someBoolean);
+        System.out.println("All variables printed: " + someString + ", " + someChar + ", " + num + ", " + smallNum + ", " + longNum + ", " + someFloat + ", " + someDouble + ", " + someBoolean + ".");
     }
 }
